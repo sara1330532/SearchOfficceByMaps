@@ -1,0 +1,165 @@
+body{
+  background-image: url("D:\לימודים\react\projex2\images\coffee-sticky-notes-near-laptop-twig_23-2147929679.webp");
+  background-size: cover;
+  font-family: Comic  ;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.leaflet-container {
+  height: 100%; /* תואם לגובה ה-container */
+  width: 100%;  /* תואם לרוחב ה-container */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formOffice {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formOffice input[type="text"],
+.formOffice input[type="email"],
+.formOffice input[type="number"],
+.formOffice input[type="checkbox"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formOffice label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.formOffice input[type="checkbox"] {
+  width: auto;
+}
+
+.formOffice input[type="text"]::placeholder,
+.formOffice input[type="email"]::placeholder,
+.formOffice input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+.hiddenDiv {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hiddenDiv div {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hiddenDiv div:hover {
+  background-color: #f0f0f0;
+}
+
+#map {
+  height: 400px; /* עדכון גובה המפה */
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+
+p.error {
+  color: red;
+  font-weight: bold;
+}
+
+p.loading {
+  color: #555;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
